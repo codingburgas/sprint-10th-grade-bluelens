@@ -21,9 +21,27 @@
     <ClCompile Include="src\mainMenu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\maze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\howToPlay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\credits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\mainMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\maze.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\howToPlay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\credits.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
