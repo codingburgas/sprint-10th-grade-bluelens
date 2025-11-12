@@ -1,0 +1,30 @@
+# Ignore Visual Studio cache and build files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sdf
+*.db
+*.opendb
+*.VC.db
+
+# Build output folders
+bin/
+obj/
+Debug/
+Release/
+
+# Other common C++/VS temporary files
+*.log
+*.tlog
+*.ipch
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.lib
+*.exp
+
+# Raylib build artifacts
+*.o
+*.obj
