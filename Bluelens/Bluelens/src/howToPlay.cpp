@@ -16,6 +16,7 @@ bool HandlePauseMenu(bool& gamePaused, bool& exitGame) {
     DrawText("1. Continue", GetScreenWidth() / 2 - 100, GetScreenHeight() / 2 - 50, 40, RAYWHITE);
     DrawText("2. Controls", GetScreenWidth() / 2 - 100, GetScreenHeight() / 2, 40, RAYWHITE);
     DrawText("3. Exit", GetScreenWidth() / 2 - 100, GetScreenHeight() / 2 + 50, 40, RAYWHITE);
+    DrawText("4. Themes", GetScreenWidth() / 2 - 100, GetScreenHeight() / 2 + 100, 40, RAYWHITE);
 
     if (IsKeyPressed(KEY_ONE)) gamePaused = false;
     if (IsKeyPressed(KEY_TWO)) DrawControlsMenu();

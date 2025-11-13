@@ -1,2 +1,2 @@
-﻿  maze.cpp
-C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\maze.cpp(16,15): error C2429: language feature 'structured bindings' requires compiler flag '/std:c++17'
+﻿  mainMenu.cpp
+  Bluelens.vcxproj -> C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\x64\Debug\Bluelens.exe

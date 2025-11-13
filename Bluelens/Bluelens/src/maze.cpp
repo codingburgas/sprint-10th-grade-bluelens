@@ -13,7 +13,9 @@ void GenerateMaze(std::vector<std::vector<Cell>>& maze, int w, int h)
 
     while (!s.empty())
     {
-        auto [x, y] = s.top();
+        auto cell = s.top();
+        int x = cell.first;
+        int y = cell.second;
         std::vector<int> neigh;
         for (int i = 0; i < 4; ++i)
         {
