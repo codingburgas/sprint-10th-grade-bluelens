@@ -1,5 +1,5 @@
-#include "../mainMenu.h"
-#include "../howToPlay.h"
+#include "../include/mainMenu.h"
+#include "../include/howToPlay.h"
 
 MenuState DrawMainMenu()
 {

@@ -1,4 +1,5 @@
-#include "../howToPlay.h"
+#include "../include/howToPlay.h"
+#include "raylib.h"
 #include <iostream>
 
 void DrawControlsMenu()

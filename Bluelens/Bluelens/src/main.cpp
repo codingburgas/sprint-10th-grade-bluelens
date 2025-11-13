@@ -1,7 +1,7 @@
 #include "raylib.h"
-#include "../maze.h"
-#include "../mainMenu.h"
-#include "../howToPlay.h"
+#include "../include/maze.h"
+#include "../include/mainMenu.h"
+#include "../include/howToPlay.h"
 #include <vector>
 #include <ctime> 
 
