@@ -3,9 +3,8 @@
 #define MAINMENU_H
 
 #include "raylib.h"
-
-enum MenuState { MENU_MAIN, MENU_CONTROLS, MENU_PLAYING };
-
+int main();
+enum MenuState { MENU_MAIN, MENU_CONTROLS, MENU_PLAYING, MENU_EXIT };
 MenuState DrawMainMenu();
-
+MenuState DrawControlsMenu();
 #endif

@@ -11,6 +11,7 @@ int main()
     SetTargetFPS(60);
     srand(time(0));
 
+
     MenuState menuState = MENU_MAIN;
     bool gamePaused = false;
     bool exitGame = false;
@@ -21,20 +22,20 @@ int main()
     Player player{ 0,0 };
     std::vector<Enemy> enemies;
 
+
     GenerateMaze(maze, width, height);
 
     while (!WindowShouldClose())
     {
         BeginDrawing();
         ClearBackground(DARKGRAY);
-
         switch (menuState)
         {
         case MENU_MAIN:
             menuState = DrawMainMenu();
             break;
         case MENU_CONTROLS:
-            DrawControlsMenu();
+            menuState = DrawControlsMenu();
             if (IsKeyPressed(KEY_BACKSPACE)) menuState = MENU_MAIN;
             break;
         case MENU_PLAYING:
@@ -56,13 +57,21 @@ int main()
             }
             else
             {
-                if (HandlePauseMenu(gamePaused, exitGame) || exitGame) CloseWindow();
+                if (HandlePauseMenu(gamePaused, exitGame) || exitGame)
+                {
+                    CloseWindow();
+                }
             }
             break;
+        case MENU_EXIT:
+            EndDrawing();
+            CloseWindow();
+            return 0;
+            break;
         }
-
         EndDrawing();
     }
+
 
     CloseWindow();
 }

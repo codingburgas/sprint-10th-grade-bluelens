@@ -41,9 +41,12 @@ void GenerateMaze(std::vector<std::vector<Cell>>& maze, int w, int h)
 
 void DrawMaze(const std::vector<std::vector<Cell>>& maze, int cellSize, const Player& player, const std::vector<Enemy>& enemies)
 {
-    for (int y = 0; y < maze.size(); ++y)
+    // Safety check
+    if (maze.empty() || maze[0].empty()) return;
+
+    for (int y = 0; y < (int)maze.size(); ++y)
     {
-        for (int x = 0; x < maze[0].size(); ++x)
+        for (int x = 0; x < (int)maze[0].size(); ++x)
         {
             int px = x * cellSize, py = y * cellSize;
             if (maze[y][x].walls[0]) DrawLine(px, py, px + cellSize, py, GRAY);
@@ -53,29 +56,50 @@ void DrawMaze(const std::vector<std::vector<Cell>>& maze, int cellSize, const Pl
         }
     }
 
-    DrawRectangle(player.x * cellSize + 3, player.y * cellSize + 3, cellSize - 6, cellSize - 6, BLUE);
-    for (auto& e : enemies)
-        DrawRectangle(e.x * cellSize + 3, e.y * cellSize + 3, cellSize - 6, cellSize - 6, RED);
+    // Bounds check for player drawing
+    if (player.x >= 0 && player.x < (int)maze[0].size() &&
+        player.y >= 0 && player.y < (int)maze.size())
+    {
+        DrawRectangle(player.x * cellSize + 3, player.y * cellSize + 3, cellSize - 6, cellSize - 6, BLUE);
+    }
 
+    for (const auto& e : enemies)
+    {
+        if (e.x >= 0 && e.x < (int)maze[0].size() &&
+            e.y >= 0 && e.y < (int)maze.size())
+        {
+            DrawRectangle(e.x * cellSize + 3, e.y * cellSize + 3, cellSize - 6, cellSize - 6, RED);
+        }
+    }
 }
 
 void MovePlayer(Player& player, const std::vector<std::vector<Cell>>& maze, int& levelCleared, bool& mazeFinished)
 {
     int dx = 0, dy = 0;
-    if (IsKeyPressed(KEY_W)) dy = -1;
-    else if (IsKeyPressed(KEY_S)) dy = 1;
-    else if (IsKeyPressed(KEY_A)) dx = -1;
-    else if (IsKeyPressed(KEY_D)) dx = 1;
+    int direction = -1;
 
-    int nx = player.x + dx;
-    int ny = player.y + dy;
-    if (nx >= 0 && ny >= 0 && ny < maze.size() && nx < maze[0].size() && !maze[player.y][player.x].walls[(dx == 1) ? 1 : (dx == -1) ? 3 : (dy == 1) ? 2 : 0])
+    if (IsKeyPressed(KEY_W)) { dy = -1; direction = 0; }
+    else if (IsKeyPressed(KEY_S)) { dy = 1; direction = 2; }
+    else if (IsKeyPressed(KEY_A)) { dx = -1; direction = 3; }
+    else if (IsKeyPressed(KEY_D)) { dx = 1; direction = 1; }
+
+    if (direction != -1)
     {
-        player.x = nx;
-        player.y = ny;
-    }
+        int nx = player.x + dx;
+        int ny = player.y + dy;
 
-    if (player.x == maze[0].size() - 1 && player.y == maze.size() - 1)
+        if (nx >= 0 && ny >= 0 && ny < maze.size() && nx < maze[0].size())
+        {
+            // Check if wall exists in that direction
+            if (!maze[player.y][player.x].walls[direction])
+            {
+                player.x = nx;
+                player.y = ny;
+            }
+        }
+    }
+    // Check win condition
+    if (player.x == (int)maze[0].size() - 1 && player.y == (int)maze.size() - 1)
     {
         mazeFinished = true;
         levelCleared++;
