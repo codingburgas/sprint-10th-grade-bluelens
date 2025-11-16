@@ -13,16 +13,21 @@ struct Cell
 
 struct Player
 {
-    int x, y;
+    int x = 0;
+    int y = 0;
 };
 
 struct Enemy
 {
-    int x, y;
+    int x = 0;
+    int y = 0;
 };
 
 void GenerateMaze(std::vector<std::vector<Cell>>& maze, int w, int h);
-void DrawMaze(const std::vector<std::vector<Cell>>& maze, int cellSize, const Player& player, const std::vector<Enemy>& enemies);
+void DrawMaze(const std::vector<std::vector<Cell>>& maze, int cellSize, const Player& player, const std::vector<Enemy>& enemies, int level);
 void MovePlayer(Player& player, const std::vector<std::vector<Cell>>& maze, int& levelCleared, bool& mazeFinished);
+int EnemyCountForLevel(int level);
+void SpawnEnemies(std::vector<Enemy>& enemies, const std::vector<std::vector<Cell>>& maze, const Player& player, int level);
+void MoveEnemies(std::vector<Enemy>& enemies, const std::vector<std::vector<Cell>>& maze, float dt, float& moveTimer);
 
 #endif

@@ -3,15 +3,22 @@
 bool IsButtonClicked(Button btn)
 {
     Vector2 mousePos = GetMousePosition();
-
-    // Check if mouse is inside the button
     bool hover = CheckCollisionPointRec(mousePos, btn.bounds);
 
-    // Left-click event
-    if (hover && IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
-        return true;
+    bool pressed = false;
 
-    return false;
+    if (hover && IsMouseButtonPressed(MOUSE_LEFT_BUTTON) && !btn.clickedLastFrame)
+    {
+        pressed = true;
+        btn.clickedLastFrame = true;
+    }
+
+    if (!IsMouseButtonDown(MOUSE_LEFT_BUTTON))
+    {
+        btn.clickedLastFrame = false;
+    }
+
+    return pressed;
 }
 
 void DrawButton(Button btn)

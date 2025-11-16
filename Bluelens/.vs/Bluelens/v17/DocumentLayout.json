@@ -1,38 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\",
+  "WorkspaceRootPath": "C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|solutionrelative:Bluelens\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\mainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|solutionrelative:Bluelens\\src\\mainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\include\\mainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|solutionrelative:Bluelens\\include\\mainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\maze.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|solutionrelative:Bluelens\\src\\maze.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\include\\maze.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\include\\maze.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|solutionrelative:Bluelens\\include\\maze.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\howToPlay.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\maze.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|solutionrelative:Bluelens\\src\\maze.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|solutionrelative:Bluelens\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|solutionrelative:Bluelens\\src\\button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\include\\button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|solutionrelative:Bluelens\\include\\button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\mainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|solutionrelative:Bluelens\\src\\mainMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\include\\mainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|solutionrelative:Bluelens\\include\\mainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\howToPlay.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|solutionrelative:Bluelens\\src\\howToPlay.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\include\\howToPlay.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\include\\howToPlay.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|solutionrelative:Bluelens\\include\\howToPlay.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{054A3A38-6C2A-40C9-8B1B-CAFF0E085044}|Bluelens\\Bluelens.vcxproj|solutionrelative:Bluelens\\src\\button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,28 +46,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "button.h",
+              "DocumentMoniker": "C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\include\\button.h",
+              "RelativeDocumentMoniker": "Bluelens\\include\\button.h",
+              "ToolTip": "C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\include\\button.h",
+              "RelativeToolTip": "Bluelens\\include\\button.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-16T16:29:53.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "button.cpp",
-              "DocumentMoniker": "C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\button.cpp",
+              "DocumentMoniker": "C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\button.cpp",
               "RelativeDocumentMoniker": "Bluelens\\src\\button.cpp",
-              "ToolTip": "C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\button.cpp",
+              "ToolTip": "C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\button.cpp",
               "RelativeToolTip": "Bluelens\\src\\button.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-15T12:02:18.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "howToPlay.h",
-              "DocumentMoniker": "C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\include\\howToPlay.h",
+              "DocumentMoniker": "C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\include\\howToPlay.h",
               "RelativeDocumentMoniker": "Bluelens\\include\\howToPlay.h",
-              "ToolTip": "C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\include\\howToPlay.h",
+              "ToolTip": "C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\include\\howToPlay.h",
               "RelativeToolTip": "Bluelens\\include\\howToPlay.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -72,63 +89,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "howToPlay.cpp",
-              "DocumentMoniker": "C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\howToPlay.cpp",
+              "DocumentMoniker": "C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\howToPlay.cpp",
               "RelativeDocumentMoniker": "Bluelens\\src\\howToPlay.cpp",
-              "ToolTip": "C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\howToPlay.cpp",
+              "ToolTip": "C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\howToPlay.cpp",
               "RelativeToolTip": "Bluelens\\src\\howToPlay.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-01T17:57:57.148Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "maze.h",
-              "DocumentMoniker": "C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\include\\maze.h",
+              "DocumentMoniker": "C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\include\\maze.h",
               "RelativeDocumentMoniker": "Bluelens\\include\\maze.h",
-              "ToolTip": "C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\include\\maze.h",
+              "ToolTip": "C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\include\\maze.h",
               "RelativeToolTip": "Bluelens\\include\\maze.h",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-11-01T17:56:02.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "maze.cpp",
-              "DocumentMoniker": "C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\maze.cpp",
+              "DocumentMoniker": "C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\maze.cpp",
               "RelativeDocumentMoniker": "Bluelens\\src\\maze.cpp",
-              "ToolTip": "C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\maze.cpp",
+              "ToolTip": "C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\maze.cpp",
               "RelativeToolTip": "Bluelens\\src\\maze.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-01T17:55:06.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "mainMenu.h",
-              "DocumentMoniker": "C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\include\\mainMenu.h",
+              "DocumentMoniker": "C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\include\\mainMenu.h",
               "RelativeDocumentMoniker": "Bluelens\\include\\mainMenu.h",
-              "ToolTip": "C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\include\\mainMenu.h",
+              "ToolTip": "C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\include\\mainMenu.h",
               "RelativeToolTip": "Bluelens\\include\\mainMenu.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-28T18:46:57.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "mainMenu.cpp",
-              "DocumentMoniker": "C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\mainMenu.cpp",
+              "DocumentMoniker": "C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\mainMenu.cpp",
               "RelativeDocumentMoniker": "Bluelens\\src\\mainMenu.cpp",
-              "ToolTip": "C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\mainMenu.cpp",
+              "ToolTip": "C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\mainMenu.cpp",
               "RelativeToolTip": "Bluelens\\src\\mainMenu.cpp",
               "ViewState": "AgIAAAgAAAAAAAAAAAAkwBkAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -137,13 +154,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\main.cpp",
               "RelativeDocumentMoniker": "Bluelens\\src\\main.cpp",
-              "ToolTip": "C:\\Users\\Meli\\code\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\main.cpp",
+              "ToolTip": "C:\\Users\\vikto\\sprint-10th-grade-bluelens\\Bluelens\\Bluelens\\src\\main.cpp",
               "RelativeToolTip": "Bluelens\\src\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAmwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-28T18:42:21.997Z",
               "EditorCaption": ""

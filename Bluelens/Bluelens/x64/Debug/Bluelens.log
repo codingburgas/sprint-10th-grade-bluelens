@@ -1,1 +1,17 @@
-﻿  Bluelens.vcxproj -> C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\x64\Debug\Bluelens.exe
+﻿  main.cpp
+C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\main.cpp(12,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  mainMenu.cpp
+C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(12,48): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(12,48): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(13,51): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(13,51): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(14,49): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(14,49): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(15,47): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(15,47): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  maze.cpp
+  Generating Code...
+  LINK : C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\x64\Debug\Bluelens.exe not found or not built by the last incremental link; performing full link
+  Bluelens.vcxproj -> C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\x64\Debug\Bluelens.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
