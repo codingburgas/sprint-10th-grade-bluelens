@@ -23,7 +23,7 @@ MenuState DrawMainMenu()
     Button btnThemes = { {GetScreenWidth() / 2 - 150, (startY + 3 * (buttonHeight + spacing)), 300, buttonHeight }, "Themes", 30 };
     Button btnExit = { {GetScreenWidth() / 2 - 150, (startY + 4 * (buttonHeight + spacing)), 300, buttonHeight }, "Exit Game", 30 };
 
-        DrawText("LABYRINTH GAME", GetScreenWidth() / 2 - 300, 100, 60, RAYWHITE);
+        DrawText("LABYRINTH GAME", GetScreenWidth() / 2 - 300, 100, 60, currentTheme.textColor);
 
         // Draw buttons
         DrawButton(btnStart);
@@ -49,6 +49,7 @@ MenuState DrawThemesMenu()
     int buttonHeight = 60;
     int spacing = 20;
 
+    //Theme button output
     for (int i = 0; i < THEME_COUNT; i++)
     {
         Button themeBtn = {
@@ -136,11 +137,9 @@ MenuState DrawCustomMenu(int& mazeSize)
         }
     }
 
-    // Draw the input box
     DrawRectangleRec(box, active ? currentTheme.buttonHoverColor : currentTheme.buttonColor);
     DrawRectangleLinesEx(box, 2, active ? currentTheme.buttonColor : currentTheme.textColor);
 
-    // Draw the text
     const char* displayText = input.empty() ? " " : input.c_str();
     DrawText(displayText, box.x + 80, box.y + 15, 30, currentTheme.textColor);
 

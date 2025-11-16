@@ -1,16 +1,18 @@
 #include "../include/howToPlay.h"
 #include "../include/button.h"
 #include "../include/mainMenu.h"
+#include "../include/theme.h"
 #include "raylib.h"
 #include <iostream>
 
 MenuState DrawControlsMenu()
 {
+    Theme currentTheme = GetCurrentTheme();
     Button btnReturnToMainM = { { GetScreenWidth() / 2 - 150, 300, 350, 60 },"Return to Main Menu", 30};
-    DrawText("CONTROLS:", 100, 100, 40, RAYWHITE);
-    DrawText("WASD - Move", 100, 160, 30, RAYWHITE);
-    DrawText("ESC - Pause", 100, 200, 30, RAYWHITE);
-    DrawText("YOUR GOAL IS TO REACH THE BOTTOM RIGHT CORNER", 100, 240, 24, RAYWHITE);
+    DrawText("CONTROLS:", 100, 100, 40,  currentTheme.textColor);
+    DrawText("WASD - Move", 100, 160, 30,  currentTheme.textColor);
+    DrawText("ESC - Pause", 100, 200, 30 , currentTheme.textColor);
+    DrawText("YOUR GOAL IS TO REACH THE BOTTOM RIGHT CORNER", 100, 240, 24, currentTheme.textColor);
     DrawButton(btnReturnToMainM);
     if(IsButtonClicked(btnReturnToMainM))
     {

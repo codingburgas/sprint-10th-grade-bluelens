@@ -94,9 +94,9 @@ void DrawMaze(const std::vector<std::vector<Cell>>& maze, int cellSize, const Pl
     else if (level >= 7) diffText = "Hard";
     else if (level >= 3) diffText = "Normal";
 
-    DrawText(TextFormat("Level: %d", level), 20, 650, 20, RAYWHITE);
-    DrawText(TextFormat("Difficulty: %s", diffText), 20, 700, 18, RAYWHITE);
-    DrawText("Goal: Green square (bottom-right)", 20, 750, 14, RAYWHITE);
+    DrawText(TextFormat("Level: %d", level), 20, 650, 20,currentTheme.textColor);
+    DrawText(TextFormat("Difficulty: %s", diffText), 20, 700, 18, currentTheme.textColor);
+    DrawText("Goal: Green square (bottom-right)", 20, 750, 14, currentTheme.textColor);
 }
 
 // PLAYER MOVEMENT

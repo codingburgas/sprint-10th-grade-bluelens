@@ -1,54 +1,50 @@
-﻿  main.cpp
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\main.cpp(14,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  mainMenu.cpp
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(20,47): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(20,47): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(20,62): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(20,62): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(20,100): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(20,100): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(21,48): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(21,48): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(21,63): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(21,63): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(21,101): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(21,101): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(22,50): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(22,50): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(22,65): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(22,65): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(22,103): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(22,103): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(23,48): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(23,48): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(23,63): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(23,63): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(23,101): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(23,101): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(24,46): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(24,46): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(24,61): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(24,61): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(24,99): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(24,99): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(55,36): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(55,36): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(64,55): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(64,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(63,66): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(63,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(68,23): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(69,23): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(81,55): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(81,55): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(145,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(145,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(151,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(151,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(150,52): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(150,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+﻿  mainMenu.cpp
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(20,47): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(20,47): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(20,62): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(20,62): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(20,100): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(20,100): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(21,48): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(21,48): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(21,63): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(21,63): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(21,101): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(21,101): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(22,50): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(22,50): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(22,65): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(22,65): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(22,103): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(22,103): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(23,48): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(23,48): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(23,63): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(23,63): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(23,101): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(23,101): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(24,46): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(24,46): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(24,61): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(24,61): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(24,99): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(24,99): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(55,36): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(55,36): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(64,55): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(64,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(63,66): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(63,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(68,23): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(69,23): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(81,55): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(81,55): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(145,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(145,33): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(151,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(151,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(150,52): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\Bluelens\src\mainMenu.cpp(150,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
   maze.cpp
   Generating Code...
-  Bluelens.vcxproj -> C:\Users\vikto\sprint-10th-grade-bluelens\Bluelens\x64\Debug\Bluelens.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
+  Bluelens.vcxproj -> C:\Users\Meli\code\sprint-10th-grade-bluelens\Bluelens\x64\Debug\Bluelens.exe
