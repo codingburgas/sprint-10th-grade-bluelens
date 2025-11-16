@@ -122,7 +122,6 @@ MenuState DrawCustomMenu(int& mazeSize)
         int key = GetCharPressed();
         while (key > 0)
         {
-            // Only accept digits 0-9 and limit to 2 characters
             if (key >= '0' && key <= '9' && input.length() < 2)
             {
                 input += (char)key;
@@ -141,11 +140,10 @@ MenuState DrawCustomMenu(int& mazeSize)
     DrawRectangleRec(box, active ? currentTheme.buttonHoverColor : currentTheme.buttonColor);
     DrawRectangleLinesEx(box, 2, active ? currentTheme.buttonColor : currentTheme.textColor);
 
-    // Draw the text (or show "20" if empty)
+    // Draw the text
     const char* displayText = input.empty() ? " " : input.c_str();
     DrawText(displayText, box.x + 80, box.y + 15, 30, currentTheme.textColor);
 
-    // Draw blinking cursor when active
     if (active && ((int)(GetTime() * 2) % 2 == 0))
     {
         int textWidth = MeasureText(displayText, 30);
@@ -153,7 +151,6 @@ MenuState DrawCustomMenu(int& mazeSize)
             box.x + 80 + textWidth + 5, box.y + 45, currentTheme.textColor);
     }
 
-    // Buttons
     Button btnStart = { {275, 400, 250, 60}, "Start Game", 30 };
     Button btnBack = { {240, 480, 330, 60}, "Return To Main Menu", 28 };
     DrawButton(btnStart);
@@ -161,7 +158,6 @@ MenuState DrawCustomMenu(int& mazeSize)
 
     if (IsButtonClicked(btnStart))
     {
-        // Validate and apply
         int val = input.empty() ? 20 : std::stoi(input);
         if (val < 10) val = 10;
         if (val > 50) val = 50;
