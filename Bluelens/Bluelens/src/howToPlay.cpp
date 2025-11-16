@@ -6,13 +6,13 @@
 
 MenuState DrawControlsMenu()
 {
-    Button btnReturnToMainM = { { GetScreenWidth() / 2 - 150, 300, 350, 60 },"Return to Main Menu", 30 };
+    Button btnReturnToMainM = { { GetScreenWidth() / 2 - 150, 300, 350, 60 },"Return to Main Menu", 30};
     DrawText("CONTROLS:", 100, 100, 40, RAYWHITE);
     DrawText("WASD - Move", 100, 160, 30, RAYWHITE);
     DrawText("ESC - Pause", 100, 200, 30, RAYWHITE);
     DrawText("YOUR GOAL IS TO REACH THE BOTTOM RIGHT CORNER", 100, 240, 24, RAYWHITE);
     DrawButton(btnReturnToMainM);
-    if (IsButtonClicked(btnReturnToMainM))
+    if(IsButtonClicked(btnReturnToMainM))
     {
         return MENU_MAIN;
     }

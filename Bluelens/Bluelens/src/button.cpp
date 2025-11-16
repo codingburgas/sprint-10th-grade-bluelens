@@ -1,41 +1,33 @@
 #include "../include/button.h"
+#include "../include/theme.h"
 
 bool IsButtonClicked(Button btn)
 {
     Vector2 mousePos = GetMousePosition();
     bool hover = CheckCollisionPointRec(mousePos, btn.bounds);
 
-    bool pressed = false;
+    if (hover && IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
+        return true;
 
-    if (hover && IsMouseButtonPressed(MOUSE_LEFT_BUTTON) && !btn.clickedLastFrame)
-    {
-        pressed = true;
-        btn.clickedLastFrame = true;
-    }
-
-    if (!IsMouseButtonDown(MOUSE_LEFT_BUTTON))
-    {
-        btn.clickedLastFrame = false;
-    }
-
-    return pressed;
+    return false;
 }
 
 void DrawButton(Button btn)
 {
+    Theme currentTheme = GetCurrentTheme();
     Vector2 mousePos = GetMousePosition();
     bool hover = CheckCollisionPointRec(mousePos, btn.bounds);
 
-    // Change color when hovered
-    Color color = hover ? LIGHTGRAY : GRAY;
+    // Use theme colors
+    Color color = hover ? currentTheme.buttonHoverColor : currentTheme.buttonColor;
 
     DrawRectangleRec(btn.bounds, color);
-    DrawRectangleLines(btn.bounds.x, btn.bounds.y, btn.bounds.width, btn.bounds.height, RAYWHITE);
+    DrawRectangleLines(btn.bounds.x, btn.bounds.y, btn.bounds.width, btn.bounds.height, currentTheme.textColor);
 
     // Center text
     int textW = MeasureText(btn.text, btn.fontSize);
     int textX = btn.bounds.x + (btn.bounds.width - textW) / 2;
     int textY = btn.bounds.y + (btn.bounds.height - btn.fontSize) / 2;
 
-    DrawText(btn.text, textX, textY, btn.fontSize, RAYWHITE);
+    DrawText(btn.text, textX, textY, btn.fontSize, currentTheme.textColor);
 }
