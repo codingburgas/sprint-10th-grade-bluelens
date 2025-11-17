@@ -2,6 +2,7 @@
 #include "raylib.h"
 #include <string>
 
+// Represents a text input field that the user can type into.
 struct InputField
 {
     Rectangle bounds;

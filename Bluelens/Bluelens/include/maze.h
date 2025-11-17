@@ -11,12 +11,13 @@ struct Cell
     bool walls[4] = { true, true, true, true }; // top, right, bottom, left
 };
 
+// Represents the player’s position in the maze.
 struct Player
 {
     int x = 0;
     int y = 0;
 };
-
+// Represents an enemy's position in the maze.
 struct Enemy
 {
     int x = 0;

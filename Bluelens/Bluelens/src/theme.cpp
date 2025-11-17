@@ -56,6 +56,7 @@ Theme themes[] = {
 int currentThemeIndex = 0;
 const int THEME_COUNT = sizeof(themes) / sizeof(themes[0]);
 
+// Returns the active theme currently being used by the game
 Theme GetCurrentTheme()
 {
     return themes[currentThemeIndex];
